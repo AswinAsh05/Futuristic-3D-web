@@ -1,7 +1,7 @@
 <h1 align="center">🚀 Futuristic 3D Web Experience 🌌</h1>
 
 <p align="center">
-  <img src="3dweb1.jpg" width="700"/>
+  <img src="3dweb1.jpg"/>
 </p>
 
 <p align="center">
@@ -17,7 +17,7 @@
 Step into a **next-gen web experience** with stunning **3D visuals**, **neon-glow effects**, and **interactive elements** powered by **Spline**. This website blends design innovation with advanced frontend aesthetics to deliver a visual treat.
 
 <p align="center">
-  <img src="3dweb.jpg" width="700"/>
+  <img src="3dweb.jpg"/>
 </p>
 
 ---
