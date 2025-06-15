@@ -6,7 +6,7 @@
 
 ---
 
-🔗 **Live Demo:**  [View Site](https://aswinash05.github.io/Apple_inspired_web/)
+🔗 **Live Demo:**  [View Site](https://aswinash05.github.io/Futuristic-3D-web/)
 
 ---
 
