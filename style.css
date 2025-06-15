@@ -1,0 +1,214 @@
+/* ====== Base Setup ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Orbitron', sans-serif;
+  scroll-behavior: smooth;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  background: transparent;
+  color: #00faff;
+}
+
+/* ====== Spline Background ====== */
+.spline-container {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+}
+
+.spline-container iframe {
+  width: 100vw;
+  height: 100vh;
+  border: none;
+  pointer-events: none;
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+/* ====== Cursor Trail ====== */
+.cursor-trail {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #00faff;
+  box-shadow: 0 0 20px #00faff;
+  pointer-events: none;
+  z-index: 1000;
+  transition: transform 0.05s ease-out;
+}
+
+/* ====== Navbar ====== */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+  background: rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(0,255,255,0.15);
+}
+
+.navbar ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #00faff;
+  font-size: 1.1rem;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #fff;
+  text-shadow: 0 0 8px #00faff;
+}
+
+/* ====== Main Content ====== */
+.main-content {
+  padding-top: 100px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 80px 20px;
+  background: rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(0,255,255,0.2);
+  transition: all 0.5s ease;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+  color: #ccffff;
+}
+
+.btn {
+  padding: 12px 30px;
+  background: transparent;
+  color: #00faff;
+  border: 2px solid #00faff;
+  border-radius: 50px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #00faff;
+  color: #000;
+  box-shadow: 0 0 20px #00faff;
+}
+
+.features {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+.card {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0,255,255,0.15);
+  border-radius: 20px;
+  padding: 30px;
+  font-size: 1.1rem;
+  backdrop-filter: blur(8px);
+  transition: 0.4s;
+}
+
+.card:hover {
+  transform: translateY(-12px) scale(1.05);
+  box-shadow: 0 0 15px #00faff;
+  background: rgba(0,0,0,0.3);
+}
+
+.contact {
+  margin-top: 100px;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 0 25px rgba(0,255,255,0.15);
+}
+
+.contact h2 {
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+
+.contact p {
+  font-size: 1rem;
+  color: #ccffff;
+}
+
+.footer {
+  text-align: center;
+  padding: 30px;
+  color: #00faff;
+  font-size: 0.9rem;
+  background: rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgba(0,255,255,0.1);
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.6s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .features h2 {
+    font-size: 2rem;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
