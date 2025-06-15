@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://aswinash05.github.io/Futuristic-3D-web/" target="_blank">
-    <img src="https://img.shields.io/badge/Live-Demo-00ffff?style=for-the-badge&logo=github&logoColor=black" />
+    🔗 <strong>Live Preview:</strong> https://aswinash05.github.io/Futuristic-3D-web/
   </a>
 </p>
 
