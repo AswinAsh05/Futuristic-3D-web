@@ -1,9 +1,10 @@
 <h1 align="center">🚀 Futuristic 3D Web Experience 🌌</h1>
 
-<p align="center">
+---
+
   ![3dweb](https://github.com/user-attachments/assets/f68fa7c5-0eb1-46b9-abbd-e4593fbd35b9)
 
-</p>
+---
 
 <p align="center">
   <a href="https://aswinash05.github.io/Futuristic-3D-web/" target="_blank">
@@ -17,10 +18,9 @@
 
 Step into a **next-gen web experience** with stunning **3D visuals**, **neon-glow effects**, and **interactive elements** powered by **Spline**. This website blends design innovation with advanced frontend aesthetics to deliver a visual treat.
 
-<p align="center">
-  ![3dweb1](https://github.com/user-attachments/assets/bab6f292-eadc-4ad8-aa7a-66a25ca05a53)
+---
 
-</p>
+  ![3dweb1](https://github.com/user-attachments/assets/bab6f292-eadc-4ad8-aa7a-66a25ca05a53)
 
 ---
 
