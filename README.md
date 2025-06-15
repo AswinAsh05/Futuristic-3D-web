@@ -6,11 +6,7 @@
 
 ---
 
-<p align="center">
-  <a href="https://aswinash05.github.io/Futuristic-3D-web/" target="_blank">
-    🔗 <strong>Live Preview:</strong> https://aswinash05.github.io/Futuristic-3D-web/
-  </a>
-</p>
+🔗 **Live Demo:**  [View Site](https://aswinash05.github.io/Apple_inspired_web/)
 
 ---
 
